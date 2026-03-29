@@ -11,33 +11,26 @@ header {
     padding: 16px;
 }
 
-header h1 {
-    margin: 0;
-}
-
-nav {
-    margin-top: 8px;
-}
-
 nav a {
     color: #ffdd57;
-    text-decoration: none;
     margin-right: 12px;
+    text-decoration: none;
     font-weight: bold;
-}
-
-nav a:hover {
-    text-decoration: underline;
 }
 
 section {
     padding: 20px;
 }
 
-footer {
-    background-color: #eee;
-    text-align: center;
-    padding: 10px;
-    margin-top: 40px;
-    font-size: 0.9rem;
+.flashcard {
+    width: 250px;
+    height: 150px;
+    background: white;
+    border: 2px solid #1f3c88;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    font-size: 1.4rem;
+    cursor: pointer;
 }
